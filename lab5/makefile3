@@ -1,0 +1,15 @@
+all:myshell
+
+myshell: line_parser.o task3.o
+	gcc -g -Wall -o myshell line_parser.o task3.o 
+
+line_parser.o: line_parser.c
+	gcc -g -Wall -c -o line_parser.o line_parser.c
+
+task3.o: task3.c
+	gcc -g -Wall -c -o task3.o task3.c
+
+.PHONY: clean
+
+clean: 
+	rm -f *.o myshell

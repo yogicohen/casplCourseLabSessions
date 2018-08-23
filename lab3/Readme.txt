@@ -1,0 +1,1 @@
+edited the state machine from lab 2. The goal of the lab is to make that state machine more modular using function dispatching.

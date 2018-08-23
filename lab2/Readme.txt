@@ -1,0 +1,1 @@
+Lab goals: C primer, pointers to data, structures, and pointers to functions.
